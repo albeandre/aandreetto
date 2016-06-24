@@ -205,7 +205,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Montserrat", "Times", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #22313F; }
 
 a {
   color: #1eaedb; }
@@ -234,7 +234,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 300; }
 
 h1 {
@@ -300,8 +300,7 @@ p {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box;
-  color: red; }
+  box-sizing: border-box; }
 
 .column,
 .columns {
@@ -310,8 +309,14 @@ p {
   box-sizing: border-box; }
 
 @media (max-width: 550px) {
+  #menu-desk {
+    display: none; }
   #nav_primary {
-    display: none; } }
+    display: none; }
+  .post_right {
+    padding-bottom: 4rem; }
+  .post_left {
+    padding-bottom: 4rem; } }
 
 @media (min-width: 400px) {
   .container {
@@ -319,6 +324,8 @@ p {
     padding: 0; } }
 
 @media (min-width: 550px) {
+  #menu-mobile {
+    display: none; }
   #mobile-nav-open {
     display: none; }
   #nav_mobile {
@@ -404,7 +411,13 @@ p {
     margin-left: 69.3333333333%; }
   .offset-by-one-half.column,
   .offset-by-one-half.column {
-    margin-left: 52%; } }
+    margin-left: 52%; }
+  .post_right {
+    padding-bottom: 4rem;
+    padding-left: 10px; }
+  .post_left {
+    padding-bottom: 4rem;
+    padding-right: 10px; } }
 
 .container:after,
 .row:after,
@@ -703,8 +716,8 @@ The Overlay (background) */
 /* Position the close button (top right corner) */
 .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: -20px;
+  right: 8px;
   font-size: 60px !important;
   /* Override the font-size specified earlier (36px) for all navigation links */ }
 
@@ -754,3 +767,35 @@ form {
 
 body {
   background-color: white; }
+
+.menu {
+  background-image: url(../images/menu.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-x: right;
+  height: 25px; }
+
+.medium {
+  padding-top: 50px; }
+
+.main_copy {
+  font-family: muli; }
+
+.center {
+  text-align: center; }
+
+.primary-color {
+  color: #1eaedb; }
+
+.riga {
+  background-color: #1eaedb;
+  height: 2px;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+a.medium_notran, a.medium_tran {
+  color: #22313F; }
+
+a.medium_notran:hover .highlight {
+  color: #1eaedb;
+  transition: 0.3s; }

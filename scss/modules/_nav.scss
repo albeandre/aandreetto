@@ -99,8 +99,8 @@ The Overlay (background) */
 /* Position the close button (top right corner) */
 .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: -20px;
+    right: 8px;
     font-size: 60px !important; /* Override the font-size specified earlier (36px) for all navigation links */
 }
 
