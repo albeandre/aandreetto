@@ -20,12 +20,13 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="apple-touch-icon" sizes="57x57" href="images/fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/fav/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/fav/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/fav/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="images/fav/apple-icon-76x76.png">
@@ -56,28 +57,33 @@ function closeNav() {
 </script>
 </head>
 <body>
-  <!-- primary navigation
-  ––––––––––––––––––––––––––––––––––––––––––––––––––-->
-  <div class="container" id="menu-desk">
 
-      <div class="twelve column">
-        <div id="nav_primary" >
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
+  <div class="table-container">
+    <div class="table-block footer-push">
 
-      </div>
+<!-- primary DESKTOP navigation
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<div class="container" id=menu-desk  >
+  <div class="twelve column">
+    <div id="nav_primary" >
+        <ul>
+          <li><a class="on" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="https://dribbble.com/albeandre" target="_blank">Dribbble</a></li>
+          <li><a href="dataviz.html">Data Viz</a></li>
+          <li><a href="stylight.html">Stylight</a></li>
+          <li><a href="stuff.html">Stuff</a></li>
 
+        </ul>
+    </div>
   </div>
-  <!-- END primary navigation-->
+</div>
+<!-- END primary navigation-->
 
-  <!-- mobile navigation
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- The overlay -->
+<!-- primary MOBILE navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- The overlay -->
 <div id="myNav" class="overlay">
 
   <!-- Button to close the overlay navigation -->
@@ -85,26 +91,24 @@ function closeNav() {
 
   <!-- Overlay content -->
   <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="https://dribbble.com/albeandre" target="_blank">Dribbble</a>
+    <a href="dataviz.html">Data Viz</a>
+    <a href="stylight.html">Stylight</a>
+    <a href="stuff.html">Stuff</a>
 
+  </div>
 </div>
-<!-- Use any element to open/show the overlay navigation menu -->
+
+<!-- burger menu -->
 <div class="container" id="menu-mobile">
   <div class="row">
-
-   <div class="twelve columns menu" id="mobile-nav-open" onclick="openNav()"></div>
-
+    <div class="twelve columns menu" id="mobile-nav-open" onclick="openNav()"></div>
  </div>
 </div>
-<!--
-    <div class="twelve column">
-<span id="mobile-nav-open" onclick="openNav()">open</span>
 
-END mobile navigation-->
+<!-- END mobile navigation-->
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -115,7 +119,7 @@ END mobile navigation-->
   </div>
   <div class="row">
     <div class="twelve columns">
-      <h2>Hi my name is Alberto, i'm an interaction designer based in Munich.</h2>
+      <h2>Hi, I'm Alberto, i'm an interaction designer based in Munich.</h2>
     </div>
   </div>
   <div class="row">
@@ -205,6 +209,23 @@ END mobile navigation-->
   </div>
 </section>
 
+</div>
+
+  <div class="table-block">
+
+<div class="container">
+  <div class="row footer">
+    <div class="twelve colums center">
+      <a href="https://de.linkedin.com/in/albertoandreetto" target="_blank" class="link-transition">Linkedin</a>
+      <a href="https://dribbble.com/albeandre" target="_blank" class="link-transition">Dribbble</a>
+      <a href="https://twitter.com/albeandre" target="_blank" class="link-transition">Twitter</a>
+      <a href="mailto:albe.andreetto@gmail.com" class="link-transition">Email</a>
+      <a href="https://github.com/albeandre/aandreetto" target="_blank" class="link-transition">Github</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 
 
 <!-- End Document

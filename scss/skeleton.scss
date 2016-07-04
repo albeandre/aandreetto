@@ -26,49 +26,5 @@
 @import "modules/tables";
 @import "modules/spacing";
 @import "modules/media-queries";
-
-body {
-  background-color: white;
-}
-
-.menu{
-
-      background-image: url(../images/menu.png);
-      background-repeat: no-repeat;
-      background-size: 25px;
-      background-position-x: right;
-      height: 25px;
-}
-
-
-.medium{
-  padding-top: 50px;
-}
-
-.main_copy{
-  font-family: muli;
-}
-
-.center{
-  text-align: center;
-}
-
-.primary-color{
-  color: $primary-color;
-}
-
-.riga{
-background-color: $primary-color;
-height: 2px;
-margin-bottom: 20px;
-margin-top: 20px;
-}
-
-a.medium_notran, a.medium_tran{
-color:$font-color;
-}
-
-a.medium_notran:hover .highlight{
-color: $primary-color;
-    transition: 0.3s;
-}
+@import "modules/style";
+@import "modules/links";

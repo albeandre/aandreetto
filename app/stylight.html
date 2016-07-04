@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Alberto Andreetto</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Muli:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="apple-touch-icon" sizes="57x57" href="images/fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+<link rel="manifest" href="images/fav/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/fav/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+  <script>
+  /* Open */
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
+</head>
+<body>
+
+<div class="table-container"> <!-- container for the whole page -->
+  <div class="table-block footer-push"> <!-- container for the main content (footer excluded)-->
+
+    <!-- primary DESKTOP navigation
+    ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+    <div class="container" id=menu-desk  >
+      <div class="twelve column">
+        <div id="nav_primary" >
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="https://dribbble.com/albeandre" target="_blank">Dribbble</a></li>
+              <li><a href="dataviz.html">Data Viz</a></li>
+              <li><a class="on" href="stylight.html">Stylight</a></li>
+              <li><a href="stuff.html">Stuff</a></li>
+
+            </ul>
+        </div>
+      </div>
+    </div>
+<!-- END primary navigation-->
+
+<!-- primary MOBILE navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="https://dribbble.com/albeandre" target="_blank">Dribbble</a>
+      <a href="dataviz.html">Data Viz</a>
+      <a href="stylight.html">Stylight</a>
+      <a href="stuff.html">Stuff</a>
+
+    </div>
+  </div>
+
+  <!-- burger menu -->
+  <div class="container" id="menu-mobile">
+    <div class="row">
+      <div class="twelve columns menu" id="mobile-nav-open" onclick="openNav()"></div>
+   </div>
+  </div>
+
+  <!-- END mobile navigation-->
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section><!-- quickview -->
+  <div class="container center">
+    <div class="row">
+      <div class="offset-by-four four columns riga">
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <h2>Quickview, how we manage to reduce the pages in the customer journey.</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-by-four four columns riga">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns img">
+        <img src="images/stylight/quickview/quickview-2.gif" loop=-1 width="100%">
+      </div>
+    </div>
+      <div class="row emptyspace"></div>
+    <div class="row">
+      <div class="twelve columns main_copy">
+        In every commerce website one of the pain that every designer try to fix is the customer journey. There is a simple rule here, the shorter the journey is the better it is. In stylight we had a quite short process, two pages, a search page with all the results and a detail page. We tried to shorter this flow to one single page. The desktop solution is a popup that we open between the two lines of products with all the info that the user has in the detail page. This let us to show to the user a faster “page” without loading a new one.
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="one-half column main_copy img">
+        In the mobile view we couldn’t use the same approach and we adopted a slide-up page. The idea is similar to the desktop, we slide up to the page a layer with all the info that we have in the detail page.</br></br>
+
+        At top right there is a close button, and on scrolling we enrich the top with the name of the product. With this green layer on top the user always know where she is and ho to get rid of this layer.</br></br>
+
+        With this feature we increased the conversion rate of some percentage point compared to the normal search page.      </div>
+      <div class="one-half column img">
+        <img src="images/stylight/quickview/01.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-half column img">
+        <img src="images/stylight/quickview/02.jpg" width="100%">
+      </div>
+      <div class="one-half column img">
+        <img src="images/stylight/quickview/03.jpg" width="100%">
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- END of quickview-->
+
+
+
+  <section><!-- stylight homepage 02 -->
+  <div class="container center">
+    <div class="row">
+      <div class="offset-by-four four columns riga">
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <h2>Stylight.de</br>Introducing product in the homepage.</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-by-four four columns riga">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns img">
+        <img src="images/stylight/magazine-new/01.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns main_copy">
+        The stylight homepage shows an overview on the latest articles our editor wrote. We decided to improve the ux for the user adding also products on the page, showing better the merging of the two sides of stylight, content and commerce.</br>
+
+        The difficult part is to show products with a context. Recently i attended a conference and one quote that sticked to my head is that if content is the king, context is the queen.     </br></br>
+With this new homepage we tried to use the context as the main character of the page. First of all we designed a funnel column at right of the hero post. This let the user funnel down the research to more detailed categories. A list of products follow the header part, these are the first items that the user sees and for us was important to show cool products. We decided to use the handpicked products that our editors choose for the article. This means that all the products showed are fitting together and we’re 100% sure of what we show at first sight to the user.
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns img">
+        <img src="images/stylight/magazine-new/02.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-half column main_copy_mobile_section">
+We also added a line of products just under the posts teaser. These products are the ones that the writer choose to fit the outfit of the post. The user can directly click on the in the homepage without having to lead another page.      </div>
+      <div class="one-half column img">
+        <img src="images/stylight/magazine-new/03.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-half column img">
+        <img src="images/stylight/magazine-new/04.jpg" width="100%">
+      </div>
+      <div class="one-half column main_copy img">
+        On mobile we designed a similar list of products under the hero post that the user can swipe. The big challenge was to include in the teaser the products of the single post. We could not put them under the teaser and even not above it. We decided to put the items beside the post showing just a little part of it fading away. The user can swipe it and reveal the whole list. We user tested this feature a lot trying different solutions, with icons, with text. When we were sure that the design and the interaction with it was intuitive and clear we rolled it out.
+      </div>
+    </div>
+
+  </div>
+</section><!-- END of stylight homepage 02-->
+
+
+
+
+
+  <section><!-- stylight homepage 01 -->
+  <div class="container center">
+    <div class="row">
+      <div class="offset-by-four four columns riga">
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <h2>Stylight.de homepage</br>New experience for the magazine home page.</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-by-four four columns riga">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns img">
+        <img src="images/stylight/magazine/01.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns main_copy">
+We rolled out the new homepage few months ago and was a great success. The goal of this design was to give a more fashion/editorial look to the website, create some spaces for the advertising team and give to the editors the possibility to have a visual hierarchy for the different posts. The only restriction we had was to use the same content we had in the previous design, this is a common restriction for a designer and is also the most difficult one to face because means we cannot this about any different format of the post.      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns img">
+        <img src="images/stylight/magazine/02.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns main_copy img">
+We designed an hero post with a wide image, this is the only exception we took from the same-content rule. We managed this using the same format we already produce for the Facebook post picture. This ask a really low effort to the picture editors and even if is a new format for the post itself is not a new format for the team.</br></br>
+Overlapping the post there is a second slider, giving the chance to the team to have an highlight section.
+
+For the feed we decided to have a single post column to give more visual white space and to explain better the content of every teaser. In order to visually brake the feed we designed some cross website row that display products categories of premium shops.
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns img">
+        <img src="images/stylight/magazine/03.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns main_copy img">
+        The old homepage was a grid based page with no hierarchy and no space for advertising at all. Every post had the same appeal of every other one, there was only a slider at the top that anyway was visually the same as the grid under it.
+
+      </div>
+    </div>
+
+  </div>
+</section><!-- END of stylight homepage 01-->
+
+
+</div>
+
+  <div class="table-block"><!-- starting the footer-->
+
+<div class="container">
+  <div class="row footer">
+    <div class="twelve colums center">
+      <a href="https://de.linkedin.com/in/albertoandreetto" target="_blank" class="link-transition">Linkedin</a>
+      <a href="https://dribbble.com/albeandre" target="_blank" class="link-transition">Dribbble</a>
+      <a href="https://twitter.com/albeandre" target="_blank" class="link-transition">Twitter</a>
+      <a href="mailto:albe.andreetto@gmail.com" class="link-transition">Email</a>
+      <a href="https://github.com/albeandre/aandreetto" target="_blank" class="link-transition">Github</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

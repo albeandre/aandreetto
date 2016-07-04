@@ -7,7 +7,6 @@ $bp-larger-than-phablet   : "min-width: 550px" !default;
 $bp-larger-than-tablet    : "min-width: 750px" !default;
 $bp-larger-than-desktop   : "min-width: 1000px" !default;
 $bp-larger-than-desktophd : "min-width: 1200px" !default;
-
 $bp-smaller-than-phablet   : "max-width: 550px" !default;
 
 // Colors
@@ -19,7 +18,6 @@ $secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
 $link-color: #1eaedb !default;
 $font-color: #22313F !default;
-
 $font-mobile-nav-color: #ffffff !default;
 $mobile-nav-bg-transparent: rgba(30,174,219, 0.9);
 
@@ -36,3 +34,4 @@ $column-margin: 4% !default; // space between columns
 
 // Misc
 $global-radius: 4px !default;
+$border: 4px;

@@ -41,6 +41,12 @@
   .post_left{
     padding-bottom: 4rem;
   }
+  .footer{
+    border-top: $border solid $primary-color;
+    height:60px;
+    padding-top: 40px;
+    word-spacing: 10px;
+  }
 }
 
 // For devices larger than 400px
@@ -56,6 +62,13 @@
 
 // For devices larger than 550px
 @media (#{$bp-larger-than-phablet}) {
+
+  .footer{
+    border-top: $border solid $primary-color;
+    height:60px;
+    padding-top: 40px;
+    word-spacing: 30px;
+  }
 
   #menu-mobile{
     display: none;
